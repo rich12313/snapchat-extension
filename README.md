@@ -7,10 +7,15 @@ Chrome Extension that enables the sending of snaps through the Snapchat Messagin
 Usage
 ==================
 Download the folder "Snapchat Tool" onto your computer
+
 Open up Chrome://Extensions and enable developer mode
+
 Choose load unpacked extension then navigate to "Snapchat Tool" directory.
+
 Before using, make sure to go to the options page (found on Chrome//Extensions) and set your username/password
+
 Right click any image and hit "Snap" 
+
 
 Future Updates
 ==================
