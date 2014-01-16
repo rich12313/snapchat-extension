@@ -1,0 +1,87 @@
+#snapchat_title{
+text-align: center;
+height: 35px;
+font-family: Arial;
+font-size: 22px;
+}
+#snapchat_friends{
+	width: 60%;
+	height: 255px;
+	float: right;
+	display: inline-block;
+	overflow: auto;
+	background-color: rgba(255,255,255,.5);
+}
+#snapchat_user_info{
+	margin-top: 25px;
+	display: inline-block;
+	float: right;
+}
+#snapchat_preview{
+width: 40%;
+height: 80%;
+display: inline-block;
+float: left;
+}
+#snapchat_recipient_list{
+border-color: black;
+border-style: solid;
+border-width: 7;
+border-radius: 10px;
+height: 140px;
+width: 88%;
+display: inline-block;
+float: left;
+background-color: #f8f16b;
+margin-top: 25px;
+text-align: center;
+overflow: auto;
+}
+#snapchat_recipient_title{
+font-family: Arial;
+font-size: 18px;
+font-weight: bold;
+}
+.underline{
+text-decoration:underline
+}
+#send_button{
+width: 100px;
+height: 50px;
+display: inline-block;
+float: left;
+margin-top: 40px;
+margin-left: 10px;
+}
+#send{
+width: 100px;
+height: 50px;
+font-family: Arial;
+font-size: 16px;
+background-color: rgb(248, 241, 107);
+border-radius: 10px;
+border-width: 3px;
+border-color: black;
+cursor: pointer;
+}
+#send:hover{
+background-color: white;
+}
+#snapchat_update_friends{
+position: absolute;
+top: 290;
+left: 42%;
+color: blue;
+cursor: pointer;
+}
+#no_display_name{
+color: blue;
+}
+#snapchat_sending{
+font-family: Arial;
+font-size: 16px;
+}
+#snapchat_sending_gif{
+margin-left: 45%;
+margin-top: 10px;
+}

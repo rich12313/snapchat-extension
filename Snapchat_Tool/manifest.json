@@ -1,0 +1,35 @@
+{
+   "description": "Provides right click functionality to send snaps to your friends.",
+   "background": {
+        "scripts": ["background.js"]
+    },
+	 "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": [
+	  "jquery.js",
+	  "fancybox/lib/jquery.mousewheel-3.0.6.pack.js",
+	  "fancybox/source/jquery.fancybox.pack.js",
+	  "fancybox/source/helpers/jquery.fancybox-buttons.js",
+	  "fancybox/source/helpers/jquery.fancybox-media.js",
+	  "fancybox/source/helpers/jquery.fancybox-thumbs.js",
+	  "code.js"],
+	  "css": [
+	  "fancybox/source/jquery.fancybox.css",
+	  "fancybox/source/helpers/jquery.fancybox-buttons.css",
+	  "fancybox/source/helpers/jquery.fancybox-thumbs.css",
+	  "styles.css"
+	  ]
+    }
+  ],
+  "web_accessible_resources": ["fancybox/source/fancybox_overlay.png","fancybox/source/fancybox_sprite.png","options.html","snapchat.png","load.gif"],
+  "options_page": "options.html",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+   "minimum_chrome_version": "6",
+   "name": "Snapchat Tool",
+   "permissions": ["contextMenus","tabs","http://*/","storage"],
+   "version": "0.99.3",
+   "manifest_version": 2
+}
