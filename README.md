@@ -24,3 +24,6 @@ This tool uses the Snapchat PHP library found at https://github.com/joshuaweaver
 License
 ==================
 MIT
+
+
+<meta property="og:image" content="http://i.imgur.com/5Dp7UJK.jpg" />
