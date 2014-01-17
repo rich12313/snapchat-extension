@@ -4,7 +4,7 @@ chrome.contextMenus.create({
     contexts:["image"],
     onclick: function(info) {
 		go(info.srcUrl);
-		console.log("Background js says: "+info.srcUrl);
+		console.log("Initiating code.js.....: "+info.srcUrl);
 		
     }
 });

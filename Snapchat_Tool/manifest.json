@@ -30,6 +30,6 @@
    "minimum_chrome_version": "6",
    "name": "Snapchat Tool",
    "permissions": ["contextMenus","tabs","http://*/","storage"],
-   "version": "0.99.3",
+   "version": "0.99.4",
    "manifest_version": 2
 }
