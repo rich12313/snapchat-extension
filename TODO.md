@@ -1,6 +1,6 @@
 To Do (In no order of Importance)
 ==================
-Create a method to access chrome storage variables from anywhere.
+~~Create a method to access chrome storage variables from anywhere.~~ Close enough lol.
 
 Develop a "first-use" test. Prompts the user to configure the app if it's their first time. 
 
