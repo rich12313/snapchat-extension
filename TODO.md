@@ -12,4 +12,6 @@ Cropping + Image Manipulation.
 GUI redesign (Kinda sucks right now). 
 
   Redo GUI Code to reduce requests to the DOM
+  
+LOGOUT THE USER DAMNIT
 
